@@ -3,9 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Calculadora de Cajas para Dai</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  
+
+  <div class="container">
+
+    <h1>Calculadora de Cajas para Dai.</h1>
+
+    <div>
+      <label for="units">Cantidad de unidades:</label>
+      <input type="number" id="units" min="1">
+    </div>
+
+    <div>
+      <label for="unitsPerBox">Cantidad de unidades por caja:</label>
+      <input type="number" id="unitsPerBox" min="1">
+    </div>
+
+    <button onclick="calculateBoxes()">Calcular</button>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
