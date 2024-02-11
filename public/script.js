@@ -3,7 +3,7 @@ function calculateBoxes() {
   var unitsPerBox = parseInt(document.getElementById('unitsPerBox').value);
   
   if (isNaN(units) || isNaN(unitsPerBox) || units <= 0 || unitsPerBox <= 0) {
-    alert('Por favor, ingrese números válidos mayores que cero. HDP!!!');
+    alert('Por favor, ingrese números válidos mayores que cero!!!');
     return;
   }
   
