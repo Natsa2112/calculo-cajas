@@ -1,3 +1,8 @@
+:root {
+  color: white;
+}
+
+
 body {
   background-color: black;
 }
@@ -15,6 +20,7 @@ body {
             0 0 0.8rem #bc13fe,
             0 0 2.8rem #bc13fe,
             inset 0 0 1.3rem #bc13fe; 
+  color: white;
   
   
   
@@ -24,7 +30,6 @@ body {
 
 h1 {
   text-align: center;
-  color: white;
 }
 
 div {
@@ -34,8 +39,6 @@ div {
 label {
   display: inline-block;
   width: 200px;
-  color: white;
-  
 }
 
 input[type="number"] {
@@ -46,20 +49,21 @@ button {
   display: block;
   margin: 0 auto;
   padding: 8px 16px;
-  background-color: #007bff;
-  color: #fff;
+  background-color: #bc13fe;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  color: white;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #bc13fe;
 }
 
 #result {
   margin-top: 20px;
   font-weight: bold;
+  padding: 0 1.5em;
 }
 .reset {
   margin-top: 10%;
